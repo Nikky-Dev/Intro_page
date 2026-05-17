@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Intro Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">My Portfolio</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow">Hi, I’m</p>
+        <h1 id="hero-name">A Developer</h1>
+        <p id="hero-role">Building elegant web experiences.</p>
+        <a class="button" href="#projects">View Work</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <strong id="project-count">0</strong>
+          <span>Projects Completed</span>
+        </div>
+        <div class="stat-card">
+          <strong id="skills-count">0</strong>
+          <span>Skills Covered</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-panel">
+      <h2>About Me</h2>
+      <p id="about-text">I am a web developer creating clean and responsive portfolio websites for modern brands.</p>
+    </section>
+
+    <section id="projects" class="section-panel project-section">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <p>Selected work that highlights design, front-end, and backend integration.</p>
+      </div>
+      <div id="project-list" class="project-grid"></div>
+    </section>
+
+    <section id="contact" class="section-panel contact-section">
+      <h2>Contact</h2>
+      <p id="contact-text">Interested in collaborating? Send a message or connect on social media.</p>
+      <div class="contact-cards" id="contact-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built as a simple single-page portfolio experience.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
